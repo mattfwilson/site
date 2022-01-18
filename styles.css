@@ -1,0 +1,40 @@
+html *
+{
+   font-size: 1em;
+   color: #000;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+#myLogo img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+body #inputs {
+    width: 25%;
+    margin: auto;
+}
+
+form {
+    text-align: left;
+}
+
+input {
+    line-height: 2.5em;
+    width: 100%;
+    padding: 2px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: rgb(167, 167, 167);
+    border-radius: .5em;
+    border-width: 1px;
+}
