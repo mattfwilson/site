@@ -1,0 +1,111 @@
+html *
+{
+   font-size: 1em;
+   color: #555;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+#myLogo img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+input {
+  font-size: 1em;
+  color:#555;
+  line-height: 2.25em;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  padding: 2px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-width: 1px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  color: rgb(189, 189, 189);
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear .2s, box-shadow linear .2s;
+     -moz-transition: border linear .2s, box-shadow linear .2s;
+      -ms-transition: border linear .2s, box-shadow linear .2s;
+       -o-transition: border linear .2s, box-shadow linear .2s;
+          transition: border linear .2s, box-shadow linear .2s;
+}
+
+body #inputs {
+    width: 25%;
+    margin: auto;
+    
+}
+
+button {
+    background-color: #F35753; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8em;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0,1);
+  }
+
+  #loginButton {
+    margin-top: .5em;  
+    text-align: right;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: #ce423d; /* Green */
+    color: white;
+  }
+
+  #footer {
+    margin-top: 50px;
+    font-size: .75em;
+    color: rgb(189, 189, 189);
+    text-align: center;
+  }
+
+  textarea {
+    font-size: 1em;
+    color:#555;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 2px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-width: 1px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    color: rgb(189, 189, 189);
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+       -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border linear .2s, box-shadow linear .2s;
+       -moz-transition: border linear .2s, box-shadow linear .2s;
+        -ms-transition: border linear .2s, box-shadow linear .2s;
+         -o-transition: border linear .2s, box-shadow linear .2s;
+            transition: border linear .2s, box-shadow linear .2s;
+  }
