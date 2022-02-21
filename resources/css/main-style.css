@@ -1,3 +1,45 @@
 body {
+    background-color: lightblue;
+}
+
+#topNav {
+    background-color: lightgray;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+#leftNav {
+    text-align: left;
+}
+
+#leftNav ul {
     background-color: gray;
+}
+
+#leftNav li {
+    overflow: hidden;
+    margin: auto;
+    float: left;
+    display: inline;
+    background-color: blue;
+    list-style: none;
+}
+
+#leftNav a {
+    color: teal;
+    background-color: red;
+    padding: 30px;
+}
+
+#topLogo {
+    margin: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+#socialIcons {
+    margin: auto;
+    float: right;
 }
